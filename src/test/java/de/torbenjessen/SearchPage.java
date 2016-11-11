@@ -1,3 +1,5 @@
+package de.torbenjessen;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -24,7 +26,6 @@ public class SearchPage {
     }
 
     public String getTitle() {
-        System.out.println(driver.getTitle());
         return driver.getTitle();
     }
 

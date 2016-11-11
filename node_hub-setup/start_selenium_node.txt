@@ -1,0 +1,5 @@
+java -Dwebdriver.chrome.driver="C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe" ^
+-Dwebdriver.firefox.marionette="C:\Program Files (x86)\Mozilla Firefox\geckodriver.exe" ^
+-jar selenium-server-standalone-3.0.1.jar -role node -hub http://127.0.0.1:4444 ^
+-browser "browserName=firefox,maxInstances=5,platform=WINDOWS" ^
+-browser "browserName=chrome,maxInstances=5,platform=WINDOWS" -maxSession 10
